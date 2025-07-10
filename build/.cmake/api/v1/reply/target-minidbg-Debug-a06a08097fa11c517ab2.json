@@ -1,0 +1,197 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "minidbg"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_dependencies",
+			"add_compile_options",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/siddhant/Desktop/linux-debugger/minidbg/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libelfin::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "minidbg::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin/dwarf",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-L/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin/elf",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin/dwarf:/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin/elf",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldwarf++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lelf++",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "minidbg",
+	"nameOnDisk" : "minidbg",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/minidbg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "ext/linenoise/linenoise.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

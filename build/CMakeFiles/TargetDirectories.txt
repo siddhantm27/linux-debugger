@@ -1,0 +1,7 @@
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/minidbg.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/hello.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/variable.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/unwinding.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/libelfin.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/edit_cache.dir
+/home/siddhant/Desktop/linux-debugger/minidbg/build/CMakeFiles/rebuild_cache.dir

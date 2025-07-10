@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+  "command": "/usr/bin/g++  -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise -I/home/siddhant/Desktop/linux-debugger/minidbg/include -g -std=c++14 -o CMakeFiles/minidbg.dir/src/minidbg.cpp.o -c /home/siddhant/Desktop/linux-debugger/minidbg/src/minidbg.cpp",
+  "file": "/home/siddhant/Desktop/linux-debugger/minidbg/src/minidbg.cpp",
+  "output": "CMakeFiles/minidbg.dir/src/minidbg.cpp.o"
+},
+{
+  "directory": "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+  "command": "/usr/bin/gcc  -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise -I/home/siddhant/Desktop/linux-debugger/minidbg/include -g -std=c++14 -o CMakeFiles/minidbg.dir/ext/linenoise/linenoise.c.o -c /home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise/linenoise.c",
+  "file": "/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise/linenoise.c",
+  "output": "CMakeFiles/minidbg.dir/ext/linenoise/linenoise.c.o"
+},
+{
+  "directory": "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+  "command": "/usr/bin/g++  -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise -I/home/siddhant/Desktop/linux-debugger/minidbg/include -g -g -O0 -std=c++14 -o CMakeFiles/hello.dir/examples/hello.cpp.o -c /home/siddhant/Desktop/linux-debugger/minidbg/examples/hello.cpp",
+  "file": "/home/siddhant/Desktop/linux-debugger/minidbg/examples/hello.cpp",
+  "output": "CMakeFiles/hello.dir/examples/hello.cpp.o"
+},
+{
+  "directory": "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+  "command": "/usr/bin/g++  -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise -I/home/siddhant/Desktop/linux-debugger/minidbg/include -g -gdwarf-2 -O0 -std=c++14 -o CMakeFiles/variable.dir/examples/variable.cpp.o -c /home/siddhant/Desktop/linux-debugger/minidbg/examples/variable.cpp",
+  "file": "/home/siddhant/Desktop/linux-debugger/minidbg/examples/variable.cpp",
+  "output": "CMakeFiles/variable.dir/examples/variable.cpp.o"
+},
+{
+  "directory": "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+  "command": "/usr/bin/g++  -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/libelfin -I/home/siddhant/Desktop/linux-debugger/minidbg/ext/linenoise -I/home/siddhant/Desktop/linux-debugger/minidbg/include -g -g -O0 -std=c++14 -o CMakeFiles/unwinding.dir/examples/stack_unwinding.cpp.o -c /home/siddhant/Desktop/linux-debugger/minidbg/examples/stack_unwinding.cpp",
+  "file": "/home/siddhant/Desktop/linux-debugger/minidbg/examples/stack_unwinding.cpp",
+  "output": "CMakeFiles/unwinding.dir/examples/stack_unwinding.cpp.o"
+}
+]

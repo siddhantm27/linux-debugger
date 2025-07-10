@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MiniDbg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-6260d54a633f43a79618.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libelfin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libelfin-Debug-60bc8d2ef6c5e5cee220.json",
+					"name" : "libelfin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "minidbg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-minidbg-Debug-a06a08097fa11c517ab2.json",
+					"name" : "minidbg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unwinding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unwinding-Debug-26b86e25e48260bfa906.json",
+					"name" : "unwinding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "variable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-variable-Debug-7903ca883f2918ae4c34.json",
+					"name" : "variable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/siddhant/Desktop/linux-debugger/minidbg/build",
+		"source" : "/home/siddhant/Desktop/linux-debugger/minidbg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
